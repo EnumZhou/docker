@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    -name: Build Docker File
-    run: docker build  -f Dockerfile -t docker-demo-serve
+    - name: Build Docker File
+      run: docker build  -f Dockerfile -t docker-demo-serve
