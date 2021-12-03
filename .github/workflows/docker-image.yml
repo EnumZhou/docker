@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build Docker File
-      run: docker build -t docker-demo-serve
+      run: docker build --tag docker-demo-serve
